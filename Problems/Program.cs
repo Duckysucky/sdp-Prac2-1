@@ -4,11 +4,12 @@ namespace Problems
 {
     public class Program
     {
-       private string Prefix(string input)
+       public static string Prefix(string input)
         {
             int length=input.Length; //get string length
-            string[] wordcount = input.Split(' '); //Seperate by words into array
-            int count = wordcount.Length; //Get the wordcount
+            string empty = "";
+            string[] wordcount = input.Split(' ');
+            int count = wordcount.Length;
             string output = $"{length},{count}:{input}"; //Put it all together
             return output;
         }

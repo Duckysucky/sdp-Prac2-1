@@ -20,15 +20,9 @@ namespace Tests
         [Test]
         public void Test1()
         {
-           Assert.AreEqual("5,1:hello", out1);           
-        }
-        public void Test2()
-        {
-            Assert.AreEqual("0,0:", out2);
-        }
-        public void Test3()
-        {
-            Assert.AreEqual("what ... did you say?? ", out3);
+           Assert.AreEqual("5,1:hello", out1);
+           Assert.AreEqual("0,0:", out2);  
+           Assert.AreEqual("what ... did you say?? ", out3);         
         }
     }
 }

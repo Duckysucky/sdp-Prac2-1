@@ -6,6 +6,10 @@ namespace Problems
     {
        public static string Prefix(string input)
         {
+            if(input=="")
+            {
+                return "0,0:";
+            }
             int length=input.Length; //get string length
             string empty = "";
             string[] wordcount = input.Split(' ');
